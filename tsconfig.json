@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",              
+    "module": "CommonJS",              
+    "rootDir": "./src",               
+    "outDir": "./dist",              
+    "strict": true,                  
+    "moduleResolution": "node",      
+    "esModuleInterop": true,         
+    "skipLibCheck": true,
+    "resolveJsonModule": true,       
+    "allowJs": false,                
+    "noImplicitAny": true,           
+    "strictNullChecks": true,        
+    "strictFunctionTypes": true,     
+    "noImplicitThis": true,          
+    "useUnknownInCatchVariables": true,
+    "noUnusedLocals": true,          
+    "noUnusedParameters": true,      
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,        
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
